@@ -1,0 +1,9 @@
+Package: regpoly
+Type: Package
+Title: Regular polygon
+Version: 1.0
+Author: Simon Urbanek
+Imports: graphics
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: Draw regular polygons.
+License: GPL-2

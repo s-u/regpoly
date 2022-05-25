@@ -1,0 +1,40 @@
+
+R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(regpoly)
+> 
+> expected <- structure(c(0, 0.866025403784439, -0.866025403784438, 1, -0.5, 
++                         -0.5), dim = 3:2, dimnames = list(NULL, c("x", "y")))
+> stopifnot(all.equal(regpoly(), expected))
+> 
+> (try(regpoly("foo!"), silent=TRUE))
+[1] "Error in validate.args(n, r) : Invalid n\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in validate.args(n, r): Invalid n>
+> 
+> (try(regpoly(5, -1), silent=TRUE))
+[1] "Error in validate.args(n, r) : Invalid radius\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in validate.args(n, r): Invalid radius>
+> 
+> proc.time()
+   user  system elapsed 
+  0.161   0.034   0.183 
