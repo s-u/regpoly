@@ -39,5 +39,6 @@ Returna matrix with columns \code{x} and \code{y} with the coordinates of the po
 \examples{
 regpoly(5)
 regpoly(3, 0.5, add=TRUE, col="red")
+(regpoly(5, 0.3, plot=FALSE))
 }
 \keyword{graphics}
