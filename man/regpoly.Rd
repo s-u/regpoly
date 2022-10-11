@@ -14,10 +14,8 @@ regpoly(n = 3, r = 1, x = 0, y = 0, plot = TRUE, add = FALSE, ...)
   \item{r}{numeric, radius of the polygon}
   \item{x}{numeric, x coordinate of the centre of the polygon}
   \item{y}{
-%%     ~~Describe \code{y} here~~
 }
   \item{plot}{
-%%     ~~Describe \code{plot} here~~
 }
   \item{add}{
 %%     ~~Describe \code{add} here~~
