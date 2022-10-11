@@ -10,12 +10,8 @@ Regular Polygon
 regpoly(n = 3, r = 1, x = 0, y = 0, plot = TRUE, add = FALSE, ...)
 }
 \arguments{
-  \item{n}{integer, number of sides
-%%     ~~Describe \code{n} here~~
-}
-  \item{r}{
-%%     ~~Describe \code{r} here~~
-}
+  \item{n}{integer, number of sides}
+  \item{r}{numeric, radius of the polygon}
   \item{x}{
 %%     ~~Describe \code{x} here~~
 }
