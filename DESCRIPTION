@@ -1,7 +1,7 @@
 Package: regpoly
 Type: Package
 Title: Creates a Regular Polygon
-Version: 1.0
+Version: 1.0-1
 Author: Simon Urbanek
 Maintainer: Simon Urbanek <urbanek@R-project.org>
 Description: Creates a regular polygon.
