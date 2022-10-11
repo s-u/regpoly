@@ -13,13 +13,10 @@ regpoly(n = 3, r = 1, x = 0, y = 0, plot = TRUE, add = FALSE, ...)
   \item{n}{integer, number of sides}
   \item{r}{numeric, radius of the polygon}
   \item{x}{
-%%     ~~Describe \code{x} here~~
 }
   \item{y}{
-%%     ~~Describe \code{y} here~~
 }
   \item{plot}{
-%%     ~~Describe \code{plot} here~~
 }
   \item{add}{
 %%     ~~Describe \code{add} here~~
