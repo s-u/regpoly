@@ -26,6 +26,7 @@ with the coordinates of the polygon points.
 }
 \examples{
 regpoly(5, col=2)
+regpoly(3, 0.5, col=4, add = TRUE)
 (regpoly(6))
 }
 \keyword{graphics}
