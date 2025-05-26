@@ -25,6 +25,7 @@ matrix with columns \code{x} and \code{y} representing
 the coordinates of the vertices.
 }
 \examples{
-regpoly(5, col=2)
+regpoly(3, col=2)
+regpoly(8, 0.5, col=4, add=TRUE)
 }
 \keyword{hplot}
