@@ -1,0 +1,8 @@
+Package: regpoly
+Type: Package
+Title: Draw a regular polygon
+Version: 1.0
+Author: Simon Urbanek
+Maintainer: Simon Urbanek <simon.urbanek@r-project.org>
+Description: Provides a function to create and draw a regular polygon.
+License: GPL-2 | GPL-3
