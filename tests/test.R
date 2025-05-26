@@ -1,6 +1,8 @@
 library(regpoly)
 
 regpoly()
+regpoly(3, 0.5, add=TRUE)
+
 stopifnot(all.equal(regpoly(4, plot=FALSE), 
                     cbind(x = c(0, 1, 0, -1), y = c(1, 0, -1, 0))))
 stopifnot(tryCatch({ regpoly(0); FALSE }, error=function(e) TRUE))
